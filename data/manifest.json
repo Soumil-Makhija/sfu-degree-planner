@@ -1,0 +1,557 @@
+{
+  "fetched_at": "2026-10-25T16:03:25.187977+00:00",
+  "sources": [
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/120",
+      "fixture": "sources/cmpt_120.json",
+      "fetched_at": "2026-10-25T16:03:23.174166+00:00",
+      "response_sha256": "b6a97af4f32fdfe66ebbe527a335bb7730bd09fb6f6de65198f0bfed9c179601",
+      "fixture_sha256": "8ca2a73c6d9669d978abc8c0af741106c5ffa075a02b50ef71e7744b49f27242",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125",
+      "fixture": "sources/cmpt_125.json",
+      "fetched_at": "2026-10-25T16:03:23.174420+00:00",
+      "response_sha256": "4693b08340ad9e69db8216338557dc0055476e8e7b5668b0521cbbb901f1f753",
+      "fixture_sha256": "8f480c4bf6132b1e359d5fb0f89824bb9574f8b57445c79251b47829fe23f918",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225",
+      "fixture": "sources/cmpt_225.json",
+      "fetched_at": "2026-10-25T16:03:23.172324+00:00",
+      "response_sha256": "dfdda90d7b64436f1bf381e8d098ed92919bdafac466b7f6bc0dbd36eb37781d",
+      "fixture_sha256": "ce1c9b40e8d768672bb78aaaf8e26afee115656e5a09a36449535d91158e0a95",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/276",
+      "fixture": "sources/cmpt_276.json",
+      "fetched_at": "2026-10-25T16:03:23.173998+00:00",
+      "response_sha256": "3efd7dd6fbf97dcc79cfd60da16cd7ed686614c138351e7f9a1ad2e5b87adc29",
+      "fixture_sha256": "8f9e08c83f4eeac8ee5b1505910f4061ce5ad8f999706b02addc308cae5bcb05",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295",
+      "fixture": "sources/cmpt_295.json",
+      "fetched_at": "2026-10-25T16:03:23.231710+00:00",
+      "response_sha256": "bb8eca0834dde9983e092521653e25bf164d1d5471d019f4c3260113f13409f9",
+      "fixture_sha256": "1cc4567bb08ebe0e1b052f23fd98aec435702aa4213625baf2e26f8287038e56",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101",
+      "fixture": "sources/macm_101.json",
+      "fetched_at": "2026-10-25T16:03:24.237089+00:00",
+      "response_sha256": "65445741f98f4aae2cb97ca6423159c3068176fce1f08c344b7607787eb92962",
+      "fixture_sha256": "9a92160142e9a94ad5fc5e6caed5e64e2453de1e7b63478b3120f4bbcc679b1a",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/201",
+      "fixture": "sources/macm_201.json",
+      "fetched_at": "2026-10-25T16:03:23.232146+00:00",
+      "response_sha256": "0f36db648c1b7c48bc5ad5edbf48fb96925e8d7c8d15e23a57cdedac7c51d538",
+      "fixture_sha256": "bf200c31cf37f54390d2540a3abf4c8fd5cb202b978651cd425394c69b3ac1dd",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/151",
+      "fixture": "sources/math_151.json",
+      "fetched_at": "2026-10-25T16:03:23.231257+00:00",
+      "response_sha256": "bacb84fe56c8bf65eb1d01f62ca36e53619a1af5f13a41b82a55eeb9ea9786d4",
+      "fixture_sha256": "aafa45f070d1d44890949c1a5a36c3961f4ab540c5fe7a2a7031db4a3f953c7d",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/152",
+      "fixture": "sources/math_152.json",
+      "fetched_at": "2026-10-25T16:03:23.285477+00:00",
+      "response_sha256": "c81ced8fd1518e525c1f6c7e58f810011923daf0a1e7df4389ba9afcd4664dca",
+      "fixture_sha256": "26f34aca19086bf901b4c82c6967d12e97d456a866f675f16521d16eed767076",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/232",
+      "fixture": "sources/math_232.json",
+      "fetched_at": "2026-10-25T16:03:23.285586+00:00",
+      "response_sha256": "6413021e7ad59abf09701d9c7562de5dd0f898e6f21664c036a47ba96fd29c13",
+      "fixture_sha256": "05031f0c8a356c0fd8e1b60c1bdf5e03fc39a1dbb7d126b6395d86b909be7f68",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/120/d100",
+      "fixture": "sources/cmpt_120_d100.json",
+      "fetched_at": "2026-10-25T16:03:24.397625+00:00",
+      "response_sha256": "707243ddd1a61f3a7833061f6e9efd9f8eff16053ee7e0c55b6b9ba548d744fe",
+      "fixture_sha256": "8eb7cde6461dcd6076f17bd4b6de728f0588b8ba3cf10afb880603574aea3dc3",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/120/d200",
+      "fixture": "sources/cmpt_120_d200.json",
+      "fetched_at": "2026-10-25T16:03:24.393611+00:00",
+      "response_sha256": "d9b9d3bb51a58aafd05bc6c645061b81c75f3150860288f585f41c13a31c2d2a",
+      "fixture_sha256": "68100602901d820ad489e53a835f6a8964ce18bfdb99e7466d436bc5510471eb",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/120/d300",
+      "fixture": "sources/cmpt_120_d300.json",
+      "fetched_at": "2026-10-25T16:03:24.393126+00:00",
+      "response_sha256": "617e39d79ce0269e494e8e13911609031f88769a12d45da22a2e8a9f2ee4c1d4",
+      "fixture_sha256": "6c1e848d3eebadb4fb7517306a6d070f29a9679af884c1ffb568de5a70d95762",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d100",
+      "fixture": "sources/cmpt_125_d100.json",
+      "fetched_at": "2026-10-25T16:03:24.397357+00:00",
+      "response_sha256": "3c51211ba355ec42cc0c75f8663427691a9d7d63806b4c8e028c2789cc8c25db",
+      "fixture_sha256": "4ffa818d5d416a899cc6cd5156da4b43c4d7dbcd8833070bd4d1e6e0f2a485eb",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d101",
+      "fixture": "sources/cmpt_125_d101.json",
+      "fetched_at": "2026-10-25T16:03:24.450353+00:00",
+      "response_sha256": "05be3770af76421c68f2ba758698ad914badea7999d57216e9731cb1652e0b62",
+      "fixture_sha256": "ffff5936fba3cc30d6d8bcbb9a9152adff379d4ca093e517367b9ec60e804e64",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d102",
+      "fixture": "sources/cmpt_125_d102.json",
+      "fetched_at": "2026-10-25T16:03:24.449788+00:00",
+      "response_sha256": "0c196c047ed7bc27ede612765f96630c4e7b34535dad59626837576f02488a08",
+      "fixture_sha256": "2a04f3a55a4ff8b26a37922ebee1b9e3bd551e112ae4ce591815186ad251d016",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d103",
+      "fixture": "sources/cmpt_125_d103.json",
+      "fetched_at": "2026-10-25T16:03:24.454385+00:00",
+      "response_sha256": "c132a8b15dc6b7de07851cc16f1901c75ff2203263314bb82013e74cb2e03963",
+      "fixture_sha256": "7310c26903cb554e4c7cb3fbbf861163cffd3e18b71e588fe40d179b5c920d6f",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d104",
+      "fixture": "sources/cmpt_125_d104.json",
+      "fetched_at": "2026-10-25T16:03:24.449716+00:00",
+      "response_sha256": "61f830109b51f55d8aa910b48a42a007184bb8d7c9e117a1333e65b54c19e709",
+      "fixture_sha256": "1bf1c1a471f504cc1fed59da95af3664620893368bc4d9f192979908e7877354",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+      "fixture": "sources/cmpt_225_d100.json",
+      "fetched_at": "2026-10-25T16:03:24.507640+00:00",
+      "response_sha256": "72509579d6f4912f097e7c45e59ec324aad6fbebf5475328da914ae4ae5f459f",
+      "fixture_sha256": "5500ce1c6a53c6a713f3e6f008e7f286133072a4a3d243e9e6b516d4d38dc992",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d101",
+      "fixture": "sources/cmpt_225_d101.json",
+      "fetched_at": "2026-10-25T16:03:24.507518+00:00",
+      "response_sha256": "eb0bf3c99dc865470de08bd8c41c9376d78ebe8c513b0cd88507c1cc0ccb7732",
+      "fixture_sha256": "78ba49c62e7d6e1f9fbcfe855090ed54919bffb71b27ca8262ab4c6f001c33a0",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d102",
+      "fixture": "sources/cmpt_225_d102.json",
+      "fetched_at": "2026-10-25T16:03:24.507772+00:00",
+      "response_sha256": "044969a8a85a763726a60400eb01df759c249d6dc1657e1b17faf07280d41d4e",
+      "fixture_sha256": "9fe257272be909bfc35d7b01546ee1f8871a4c9c2c6842e2f5058841e42528eb",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d103",
+      "fixture": "sources/cmpt_225_d103.json",
+      "fetched_at": "2026-10-25T16:03:24.507148+00:00",
+      "response_sha256": "024a3888ea932b578c5f9cb670f24871c5fb303a2d642383f85ec3cea857c2e4",
+      "fixture_sha256": "b60f3d1f97c9ec601b3ba3fa0d9b8bb293a039e8c69be93675f7e979e3c78914",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d104",
+      "fixture": "sources/cmpt_225_d104.json",
+      "fetched_at": "2026-10-25T16:03:24.553555+00:00",
+      "response_sha256": "430518014d381b8019b758cdfcd9df4639f5e76fb2b270ccf62bd80a157be65f",
+      "fixture_sha256": "545aaa8f31752ff7b27d3c91cd0c4e591aaba30c85bdeb67471f2eaf3170532d",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d105",
+      "fixture": "sources/cmpt_225_d105.json",
+      "fetched_at": "2026-10-25T16:03:24.574734+00:00",
+      "response_sha256": "6671da0c804bfc1017ca1795931913ef78e2ac21499cc3bc661dd5cd6eeeaec4",
+      "fixture_sha256": "2b73f4f775b64b09134947870a6fddb1df1c823a8f60c2ba703486b3f0b3be1d",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d106",
+      "fixture": "sources/cmpt_225_d106.json",
+      "fetched_at": "2026-10-25T16:03:24.556893+00:00",
+      "response_sha256": "98b10d323548bfe1006cdf380d439508f657ea86e5924c396b81a8522773b8ad",
+      "fixture_sha256": "130947273e546df05a07b8769699126e3f48eee3db554cf05c101941c01ef953",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d107",
+      "fixture": "sources/cmpt_225_d107.json",
+      "fetched_at": "2026-10-25T16:03:24.557668+00:00",
+      "response_sha256": "d327a0c24c11eacd6bca72c276e4fa2285d4f3848c824143abb872e6f74cd9d9",
+      "fixture_sha256": "47a76ed2c8f62192faa05c134806901b9f6e85fe0ad2ecd2fbd463d0551a50a3",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d108",
+      "fixture": "sources/cmpt_225_d108.json",
+      "fetched_at": "2026-10-25T16:03:24.605224+00:00",
+      "response_sha256": "bbbf3e0333f408ca4cf7a13225f9b333321fe781c74f38c90862bbe841a27d99",
+      "fixture_sha256": "efcbb9e7b2a701c4ff4e096870883c96ffdfcf98811d8fd866668e024b5d8e88",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d200",
+      "fixture": "sources/cmpt_225_d200.json",
+      "fetched_at": "2026-10-25T16:03:24.605451+00:00",
+      "response_sha256": "f5d28b370dfa239860d8e70219dfa2fa4dbc960e9e552b02c984d68a05513c44",
+      "fixture_sha256": "fa30c29d56e277edc11b3fb19fa9411905d67dd1afb66593cc94b9aef7883e96",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d201",
+      "fixture": "sources/cmpt_225_d201.json",
+      "fetched_at": "2026-10-25T16:03:24.605056+00:00",
+      "response_sha256": "ffc806725f23697f6c2b3c0e8e6ff8e2e6003836628c55655271a3cd3d956601",
+      "fixture_sha256": "b552f239eaf8476110ab7573c9b69c7f5bddb737be94657a7386aac01e60fdc0",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d202",
+      "fixture": "sources/cmpt_225_d202.json",
+      "fetched_at": "2026-10-25T16:03:24.623795+00:00",
+      "response_sha256": "17893d1e4e671c834287b12fb0c42ff95973acc1d83d7af85706c0c60f524cd1",
+      "fixture_sha256": "12fc96aa9d69937a3cbd10bd2ad20531c50be820186c2db164e946742078e5ad",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d203",
+      "fixture": "sources/cmpt_225_d203.json",
+      "fetched_at": "2026-10-25T16:03:24.652479+00:00",
+      "response_sha256": "066e45d29b738c49e872e35ce92a216c6a27ea5068ca86e06b6e82577a1376fe",
+      "fixture_sha256": "a21e69a33a272dcf20a1ab80216913f4d6c85d6268cbb4d917c6c0ad257d3c6d",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d204",
+      "fixture": "sources/cmpt_225_d204.json",
+      "fetched_at": "2026-10-25T16:03:24.652150+00:00",
+      "response_sha256": "19598c643365e17b2471d72704b6774faccaa6e6e7da37f463490ef5c011eac2",
+      "fixture_sha256": "44df35e0379bdc9e59c993289ce48ba1c0e5115bc7b8f60a133b1cc973a89f0e",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/276/d100",
+      "fixture": "sources/cmpt_276_d100.json",
+      "fetched_at": "2026-10-25T16:03:24.656760+00:00",
+      "response_sha256": "3e8f81e1a7bf797010b2562eff5c85b486ccb6a977cac73cdf5df9ff31774210",
+      "fixture_sha256": "56f66fad51a6cc66fac4396a6ef6b14770976a5bc93a853d6aeec4703413ff61",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/276/d200",
+      "fixture": "sources/cmpt_276_d200.json",
+      "fetched_at": "2026-10-25T16:03:24.669574+00:00",
+      "response_sha256": "540f2375da880382bc68d8c794f65bf3a6707856e347dc16a0a33fe99cfc8a23",
+      "fixture_sha256": "e2f9d020e5872affe70fe68bceae027fe00f3746d5c8b364e22faebf7c97ea78",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/276/d300",
+      "fixture": "sources/cmpt_276_d300.json",
+      "fetched_at": "2026-10-25T16:03:24.706742+00:00",
+      "response_sha256": "61bd878f68149cc394805ca47375a1d5cc81fbf22c111c9b3c3ce3004181000a",
+      "fixture_sha256": "3c98e7db04f38b07608aa84a45e4ec69316f666898f4b20832dc2bc611673117",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d100",
+      "fixture": "sources/cmpt_295_d100.json",
+      "fetched_at": "2026-10-25T16:03:24.708027+00:00",
+      "response_sha256": "d54eb9cb6ae1fff5aa2fd195c185a1c41b9ec8c9fa117dbdff302314f73aabbc",
+      "fixture_sha256": "4cd383666c08ce275dbdd14f3c5bfd7bf347c4be84ee0639205f72f44e25c1e4",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d101",
+      "fixture": "sources/cmpt_295_d101.json",
+      "fetched_at": "2026-10-25T16:03:24.705051+00:00",
+      "response_sha256": "4644ed6540f354e7944c088e5aa3a5a0e6456aaae56b7f48cf93c4a03a17882f",
+      "fixture_sha256": "39d27c08d6a4a47a3ffd2983467d8cf1ee2e427950edc6d087381d50d7b817eb",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d102",
+      "fixture": "sources/cmpt_295_d102.json",
+      "fetched_at": "2026-10-25T16:03:24.722313+00:00",
+      "response_sha256": "5c66c3e218cdf89d7d82ae63ac09ac449212f8a8b23673f0818f79c0662237a5",
+      "fixture_sha256": "d05d2e51b9209293cb818167963aa308a04e8b54b93d47de56de2e6690700b8b",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d103",
+      "fixture": "sources/cmpt_295_d103.json",
+      "fetched_at": "2026-10-25T16:03:24.759635+00:00",
+      "response_sha256": "94ad2829740f622a79dc5356430a11585649c9c3069218c169ef88dd5d7eed2f",
+      "fixture_sha256": "890cb9dd5ea10b828bbaf0401a346cf0cddb6825a8f60c48f990e6c51f798ad4",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d104",
+      "fixture": "sources/cmpt_295_d104.json",
+      "fetched_at": "2026-10-25T16:03:24.760848+00:00",
+      "response_sha256": "b62bf1236ae7045109cadc49f9d7f6c2ee72fb494467115649e86459d72d54c0",
+      "fixture_sha256": "931ed10e9045077d62c8d4b8a7d57891d537c238ee3512c9f2e2731394b94f8a",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d105",
+      "fixture": "sources/cmpt_295_d105.json",
+      "fetched_at": "2026-10-25T16:03:24.760826+00:00",
+      "response_sha256": "aea143fea6bc92468e5be22f636b5519b22614487df21f4c16bce68fbb6f5baf",
+      "fixture_sha256": "67d004694501421bc0fde8a5ff942bf88bf4662ab4a9d098fa4e62fc439b9987",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+      "fixture": "sources/macm_101_d100.json",
+      "fetched_at": "2026-10-25T16:03:24.769110+00:00",
+      "response_sha256": "1ec2bfc4a35a18a48872ccb408643739cee354257ac9b0cf79d84023cae49351",
+      "fixture_sha256": "46836f442439178de4d16628b6b622b86352d1973249eee6e72517282a8e1fc4",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d101",
+      "fixture": "sources/macm_101_d101.json",
+      "fetched_at": "2026-10-25T16:03:24.854762+00:00",
+      "response_sha256": "0029f94cd4a59e73247b0cbed7c14cde93e6985a52a1e17c4b7422f01cd5ca6d",
+      "fixture_sha256": "b7287dccc5dd9cfb1e6044c8e03de7773f28841457262dbead3081082715b0d0",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d102",
+      "fixture": "sources/macm_101_d102.json",
+      "fetched_at": "2026-10-25T16:03:24.859586+00:00",
+      "response_sha256": "476ec18ef76d52e21644a67957b0b938e68a0b2a22259797bf32ef590f7840ca",
+      "fixture_sha256": "35561790e15fe2053e03ef407eb7f7ec262f7579bd01d40217ab8b4aeeeff7ea",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d103",
+      "fixture": "sources/macm_101_d103.json",
+      "fetched_at": "2026-10-25T16:03:24.858383+00:00",
+      "response_sha256": "8a2a0b5a867e90ef985944280e96d74ae7634753b93cf3b85d016fc3813f7884",
+      "fixture_sha256": "281294b23516636f6281e25cc830100db75b5ac232d5be2ce5e360bfdd6828e2",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d104",
+      "fixture": "sources/macm_101_d104.json",
+      "fetched_at": "2026-10-25T16:03:24.857975+00:00",
+      "response_sha256": "7f61d041fb95e92967a270cf796a0f571f8f8aae1f09c05aa3dc8dd4cd77927c",
+      "fixture_sha256": "3c34e86e08de702a16e5b225dbe5fdf62fec60b6a8b091d99ad4936e46eecbcf",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d105",
+      "fixture": "sources/macm_101_d105.json",
+      "fetched_at": "2026-10-25T16:03:24.910312+00:00",
+      "response_sha256": "9f765fbaefa9f5c75b42dc9d577f6f6f9c6ee7cd3ba2c4b6c8fe3d521333f09a",
+      "fixture_sha256": "21334b23eb4c5dcf1d0653f48e6424d338108a1c941aa7584bfe3eb102553c4c",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d106",
+      "fixture": "sources/macm_101_d106.json",
+      "fetched_at": "2026-10-25T16:03:24.910486+00:00",
+      "response_sha256": "6f79fdc7c1a34fa489a46195ab671ec74dbd71d51e4c53aec9da3cbefe38bf95",
+      "fixture_sha256": "2cb5f7cc0b408cd17271fd37d5eb143b1512d0854bc9ecd51cc3aa12f1a7f852",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d107",
+      "fixture": "sources/macm_101_d107.json",
+      "fetched_at": "2026-10-25T16:03:24.919962+00:00",
+      "response_sha256": "0e7bfbf1d7d9833db9fe8a5e8ae55ef42ffff17a97dead11bd4798845868937a",
+      "fixture_sha256": "ebf47779e0b3243c2817504899f902271ce3554381bddc822bfcdab82fc28456",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d108",
+      "fixture": "sources/macm_101_d108.json",
+      "fetched_at": "2026-10-25T16:03:24.911986+00:00",
+      "response_sha256": "d82236c99e8cc946a5f92be033c00e79fef5667c336705fd4c73393aedab4a9b",
+      "fixture_sha256": "78bb5d73c70f754a0f0d72932a3ca103ec60576b4c65e9c4b930770730fd3bf1",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+      "fixture": "sources/macm_101_d200.json",
+      "fetched_at": "2026-10-25T16:03:24.970620+00:00",
+      "response_sha256": "777ed3ed2aa5b53a51728b6fafcecff5c7ec8d43a74763d7eaa0e439135b903f",
+      "fixture_sha256": "5025ee95fe4109c3ffc557e837d2dbfddc3d51d531f07b69250865a4ea3f73f3",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d201",
+      "fixture": "sources/macm_101_d201.json",
+      "fetched_at": "2026-10-25T16:03:24.966503+00:00",
+      "response_sha256": "287b1e5fc993a1699620d8eed60327b0100b30a9403bc111031b5f3dcd511f5b",
+      "fixture_sha256": "3bbcc0dec218113e67ed728922f4e74ee5d101e56cea5102f159282c5d335ffe",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d202",
+      "fixture": "sources/macm_101_d202.json",
+      "fetched_at": "2026-10-25T16:03:24.967743+00:00",
+      "response_sha256": "db08982455a7d35a1cce7cbc7e34b2c710cee407945e3b1c060a6653837a5da7",
+      "fixture_sha256": "abd3b7cd013af90f505e85f1b540ddd094e47bebbaa5c8f615a1bf4095ef0abb",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d203",
+      "fixture": "sources/macm_101_d203.json",
+      "fetched_at": "2026-10-25T16:03:24.967386+00:00",
+      "response_sha256": "0cec012be1198aff208aca086487d97476db39b2eec185149cfc6661690192f5",
+      "fixture_sha256": "b7856d9f7674b08d3a7e7e75b5df4039503dac38dfdf0a8794a71e4f12b9e9ed",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d204",
+      "fixture": "sources/macm_101_d204.json",
+      "fetched_at": "2026-10-25T16:03:25.014456+00:00",
+      "response_sha256": "6ed30414cac941a2f0291468ed1c92c41be7b7602f3087d0636ffff7ccb28106",
+      "fixture_sha256": "a896c242954567161fa898ce6133f244e0a97c1458eea34b472dc77f04f833e9",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d205",
+      "fixture": "sources/macm_101_d205.json",
+      "fetched_at": "2026-10-25T16:03:25.026715+00:00",
+      "response_sha256": "5dafae73fc082de49f280ab2084d4f1f94db6e6bab212375d4bcf4d78954463f",
+      "fixture_sha256": "cc66c61bb030535117c185c27611c5a30b36f2bd10765d64e292448c08698d84",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d206",
+      "fixture": "sources/macm_101_d206.json",
+      "fetched_at": "2026-10-25T16:03:25.032576+00:00",
+      "response_sha256": "4e9c0f5de41f11533eece5f5a3072f9fd5e172502bcfeb763ca6be83a78aa16b",
+      "fixture_sha256": "519a8b291dfeb8c8e39979cdd8af0092cf5ff12242c982421b36d2bfbd4dc044",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d207",
+      "fixture": "sources/macm_101_d207.json",
+      "fetched_at": "2026-10-25T16:03:25.029024+00:00",
+      "response_sha256": "d131120428c69e5ddcf613d401d927c1693b553decb655e8e1b2342f5ed090cd",
+      "fixture_sha256": "2fefe3d59c342a48543d3fe4001e18c8bf132803eca04f8ce87fb2ea55b359a6",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d208",
+      "fixture": "sources/macm_101_d208.json",
+      "fetched_at": "2026-10-25T16:03:25.073938+00:00",
+      "response_sha256": "6bc827e20c65e8d4999f236c83679454984f6654eb13de03a394490808115853",
+      "fixture_sha256": "39e1c2b0c1cc93fd602c57060d054f56a0eb7f741b7a8af8670444262ec8f967",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d300",
+      "fixture": "sources/macm_101_d300.json",
+      "fetched_at": "2026-10-25T16:03:25.081341+00:00",
+      "response_sha256": "f3a97c8e7fbea68246f9d19a3adc2e5ce5c1f21651b4486b4a6c1fbb73077d40",
+      "fixture_sha256": "ec83cc0e165d5d44be67f2612fd76c60c35052cceda11fdb1c3a279f8bc9fe5b",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d302",
+      "fixture": "sources/macm_101_d302.json",
+      "fetched_at": "2026-10-25T16:03:25.078165+00:00",
+      "response_sha256": "ab59cfade79ae40fa456e9ac4079eb72af841425be92cd138f09cced89f22a2c",
+      "fixture_sha256": "30a5593d3020d2930bb0807b2cc500c72e9ab4b4165f91fcf9e844da6d5a9511",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d303",
+      "fixture": "sources/macm_101_d303.json",
+      "fetched_at": "2026-10-25T16:03:25.081642+00:00",
+      "response_sha256": "041583abda43201aa7be20b24a9d3a5a377005db13bb06f9455178a24004913a",
+      "fixture_sha256": "e8cdcc814308f9c5b3315af57407f87e5cee523e27f1494ef8e6ef9b596625d5",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d307",
+      "fixture": "sources/macm_101_d307.json",
+      "fetched_at": "2026-10-25T16:03:25.124725+00:00",
+      "response_sha256": "97f8a90e851ac29c1414aa3a69692858e28ed3f2f409cd7d213106ba80e8e5cd",
+      "fixture_sha256": "6fd9273b9a58379fd5eeb8eee650c594bf349417badbbd417afe5ef32de42eac",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/201/d100",
+      "fixture": "sources/macm_201_d100.json",
+      "fetched_at": "2026-10-25T16:03:25.135826+00:00",
+      "response_sha256": "ea7d4578862e9302961ad9da30d32a2ad9719e55a94b295659c348ad285d3545",
+      "fixture_sha256": "614760f8baedb1fb41248474969a79e9ac16ab6d615d36894923914e2219da43",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/151/d100",
+      "fixture": "sources/math_151_d100.json",
+      "fetched_at": "2026-10-25T16:03:25.137685+00:00",
+      "response_sha256": "94535e161967aac3d31eed98254dd4c335534cfedea579d22816633d676b2c9e",
+      "fixture_sha256": "1b51bebd689f861b6e4a6af8268d5000165bb66657515adb8c0b6c5160b5b430",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/151/d400",
+      "fixture": "sources/math_151_d400.json",
+      "fetched_at": "2026-10-25T16:03:25.135851+00:00",
+      "response_sha256": "453b1d571ea433af26808f630bcc9a308f287898079a7d935048b3401b66d764",
+      "fixture_sha256": "9f3cefb354e209c400d4988a93f142408e2b860bf5ea0765ff672e9041df53cc",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/152/d100",
+      "fixture": "sources/math_152_d100.json",
+      "fetched_at": "2026-10-25T16:03:25.179325+00:00",
+      "response_sha256": "d7352b674215eca64a31c0de15d4273c0ea28721507df7db00f99f8a5b4e3085",
+      "fixture_sha256": "4853a153181838bdb58afc675e9facb99b25ad9461a118cff2e0070b65f002f6",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/232/d100",
+      "fixture": "sources/math_232_d100.json",
+      "fetched_at": "2026-10-25T16:03:25.185360+00:00",
+      "response_sha256": "810df290fd79bd10d8c2bf3ea88f63aedccf96c7c3cc9ecf59d43a56a07a8d63",
+      "fixture_sha256": "4e3fa5bc6b44eeaa02b6e90b36187bbdda3f53587ffd63f96ae99a3289b27f32",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    },
+    {
+      "url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/232/d400",
+      "fixture": "sources/math_232_d400.json",
+      "fetched_at": "2026-10-25T16:03:25.187668+00:00",
+      "response_sha256": "6a022a48e4d166163e27325d73d1f95e458001d0d001e7698f6f6b4f527eeedf",
+      "fixture_sha256": "5ed1331b8fb15ee8654f4a04902f208dc6350e0c3a139545dcf5195b7e995269",
+      "projection": "Only section/identity/prerequisite/meeting facts; prose and personnel omitted."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "info": {
+    "section": "D200",
+    "units": "3",
+    "title": "Data Structures and Programming",
+    "type": "e",
+    "classNumber": "4850",
+    "prerequisites": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+    "corequisites": "",
+    "number": "225",
+    "outlinePath": "2026/fall/cmpt/225/d200",
+    "term": "Fall 2026",
+    "dept": "CMPT",
+    "notes": ""
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Tu",
+      "sectionCode": "LEC",
+      "startTime": "11:30",
+      "isExam": false,
+      "endTime": "13:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    },
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Th",
+      "sectionCode": "LEC",
+      "startTime": "11:30",
+      "isExam": false,
+      "endTime": "12:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Fri Dec 11 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Fr",
+      "startTime": "19:00",
+      "isExam": true,
+      "endTime": "22:00",
+      "startDate": "Fri Dec 11 00:00:00 PST 2026"
+    }
+  ]
+}

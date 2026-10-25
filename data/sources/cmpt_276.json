@@ -1,0 +1,26 @@
+[
+  {
+    "text": "D100",
+    "value": "d100",
+    "title": "Introduction to Software Engineering",
+    "classType": "e",
+    "sectionCode": "LEC",
+    "associatedClass": "1"
+  },
+  {
+    "text": "D200",
+    "value": "d200",
+    "title": "Introduction to Software Engineering",
+    "classType": "e",
+    "sectionCode": "LEC",
+    "associatedClass": "2"
+  },
+  {
+    "text": "D300",
+    "value": "d300",
+    "title": "Introduction to Software Engineering",
+    "classType": "e",
+    "sectionCode": "LEC",
+    "associatedClass": "3"
+  }
+]

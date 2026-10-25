@@ -1,0 +1,39 @@
+{
+  "info": {
+    "section": "D400",
+    "units": "3",
+    "title": "Calculus I",
+    "type": "e",
+    "classNumber": "2984",
+    "prerequisites": "Pre-Calculus 12 (or equivalent) with a grade of at least A, or MATH 100 with a grade of at least B, or MATH 110 with a grade of at least A.",
+    "corequisites": "",
+    "number": "151",
+    "outlinePath": "2026/fall/math/151/d400",
+    "term": "Fall 2026",
+    "dept": "MATH",
+    "notes": "Students with credit for either MATH 150, 154 or 157 may not take MATH 151 for further credit."
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Mo, We, Fr",
+      "sectionCode": "LEC",
+      "startTime": "9:30",
+      "isExam": false,
+      "endTime": "10:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Wed Dec 09 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "We",
+      "startTime": "15:30",
+      "isExam": true,
+      "endTime": "18:30",
+      "startDate": "Wed Dec 09 00:00:00 PST 2026"
+    }
+  ]
+}

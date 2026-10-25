@@ -1,0 +1,39 @@
+{
+  "info": {
+    "section": "D400",
+    "units": "3",
+    "title": "Applied Linear Algebra",
+    "type": "e",
+    "classNumber": "2987",
+    "prerequisites": "MATH 150 or 151 or MACM 101, with a minimum grade of C-; or MATH 154 or 157, both with a grade of at least B.",
+    "corequisites": "",
+    "number": "232",
+    "outlinePath": "2026/fall/math/232/d400",
+    "term": "Fall 2026",
+    "dept": "MATH",
+    "notes": "Students with credit for MATH 240 may not take this course for further credit."
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Mo, We, Fr",
+      "sectionCode": "LEC",
+      "startTime": "13:30",
+      "isExam": false,
+      "endTime": "14:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Thu Dec 10 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Th",
+      "startTime": "8:30",
+      "isExam": true,
+      "endTime": "11:30",
+      "startDate": "Thu Dec 10 00:00:00 PST 2026"
+    }
+  ]
+}

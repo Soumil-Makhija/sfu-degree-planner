@@ -1,0 +1,49 @@
+{
+  "info": {
+    "section": "D300",
+    "units": "3",
+    "title": "Introduction to Computing Science and Programming I",
+    "type": "e",
+    "classNumber": "6556",
+    "prerequisites": "BC Math 12 or equivalent is recommended.",
+    "corequisites": "",
+    "number": "120",
+    "outlinePath": "2026/fall/cmpt/120/d300",
+    "term": "Fall 2026",
+    "dept": "CMPT",
+    "notes": "Students with credit for CMPT 102, 128, 130 or 166 may not take this course for further credit. Students who have taken CMPT 125, 129, 130 or 135 first may not then take this course for further credit."
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Tu",
+      "sectionCode": "LEC",
+      "startTime": "8:30",
+      "isExam": false,
+      "endTime": "10:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    },
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Th",
+      "sectionCode": "LEC",
+      "startTime": "8:30",
+      "isExam": false,
+      "endTime": "9:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Wed Dec 16 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "We",
+      "startTime": "15:30",
+      "isExam": true,
+      "endTime": "18:30",
+      "startDate": "Wed Dec 16 00:00:00 PST 2026"
+    }
+  ]
+}

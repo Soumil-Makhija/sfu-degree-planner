@@ -1,0 +1,49 @@
+{
+  "info": {
+    "section": "D100",
+    "units": "3",
+    "title": "Discrete Mathematics II",
+    "type": "e",
+    "classNumber": "4419",
+    "prerequisites": "MATH 141 or MACM 101 or (ENSC 251 and one of MATH 232 or MATH 240).",
+    "corequisites": "",
+    "number": "201",
+    "outlinePath": "2026/fall/macm/201/d100",
+    "term": "Fall 2026",
+    "dept": "MACM",
+    "notes": ""
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Mo",
+      "sectionCode": "LEC",
+      "startTime": "12:30",
+      "isExam": false,
+      "endTime": "13:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    },
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "We, Fr",
+      "sectionCode": "LEC",
+      "startTime": "12:30",
+      "isExam": false,
+      "endTime": "13:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Fri Dec 18 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Fr",
+      "startTime": "8:30",
+      "isExam": true,
+      "endTime": "11:30",
+      "startDate": "Fri Dec 18 00:00:00 PST 2026"
+    }
+  ]
+}

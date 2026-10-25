@@ -1,0 +1,49 @@
+{
+  "info": {
+    "section": "D200",
+    "units": "3",
+    "title": "Introduction to Software Engineering",
+    "type": "e",
+    "classNumber": "4852",
+    "prerequisites": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
+    "corequisites": "",
+    "number": "276",
+    "outlinePath": "2026/fall/cmpt/276/d200",
+    "term": "Fall 2026",
+    "dept": "CMPT",
+    "notes": "Students with credit for CMPT 275 may not take this course for further credit."
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "We",
+      "sectionCode": "LEC",
+      "startTime": "11:30",
+      "isExam": false,
+      "endTime": "12:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    },
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Fr",
+      "sectionCode": "LEC",
+      "startTime": "10:30",
+      "isExam": false,
+      "endTime": "12:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Tue Dec 15 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Tu",
+      "startTime": "19:00",
+      "isExam": true,
+      "endTime": "21:00",
+      "startDate": "Tue Dec 15 00:00:00 PST 2026"
+    }
+  ]
+}

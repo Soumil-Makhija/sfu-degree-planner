@@ -1,0 +1,29 @@
+{
+  "info": {
+    "section": "D103",
+    "units": "4",
+    "title": "Introduction to Computer Systems",
+    "type": "n",
+    "classNumber": "4902",
+    "prerequisites": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+    "corequisites": "",
+    "number": "295",
+    "outlinePath": "2026/fall/cmpt/295/d103",
+    "term": "Fall 2026",
+    "dept": "CMPT",
+    "notes": ""
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Mo",
+      "sectionCode": "LAB",
+      "startTime": "11:30",
+      "isExam": false,
+      "endTime": "12:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": []
+}

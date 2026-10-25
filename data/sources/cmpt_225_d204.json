@@ -1,0 +1,29 @@
+{
+  "info": {
+    "section": "D204",
+    "units": "3",
+    "title": "Data Structures and Programming",
+    "type": "n",
+    "classNumber": "4859",
+    "prerequisites": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+    "corequisites": "",
+    "number": "225",
+    "outlinePath": "2026/fall/cmpt/225/d204",
+    "term": "Fall 2026",
+    "dept": "CMPT",
+    "notes": ""
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Tu",
+      "sectionCode": "LAB",
+      "startTime": "17:30",
+      "isExam": false,
+      "endTime": "18:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": []
+}

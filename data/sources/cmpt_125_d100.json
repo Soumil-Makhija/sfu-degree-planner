@@ -1,0 +1,49 @@
+{
+  "info": {
+    "section": "D100",
+    "units": "3",
+    "title": "Introduction to Computing Science and Programming II",
+    "type": "e",
+    "classNumber": "4820",
+    "prerequisites": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+    "corequisites": "",
+    "number": "125",
+    "outlinePath": "2026/fall/cmpt/125/d100",
+    "term": "Fall 2026",
+    "dept": "CMPT",
+    "notes": "Students with credit for CMPT 126, 129, 135 or CMPT 200 or higher may not take this course for further credit."
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Tu",
+      "sectionCode": "LEC",
+      "startTime": "8:30",
+      "isExam": false,
+      "endTime": "10:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    },
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Th",
+      "sectionCode": "LEC",
+      "startTime": "8:30",
+      "isExam": false,
+      "endTime": "9:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Tue Dec 15 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Tu",
+      "startTime": "15:30",
+      "isExam": true,
+      "endTime": "18:30",
+      "startDate": "Tue Dec 15 00:00:00 PST 2026"
+    }
+  ]
+}

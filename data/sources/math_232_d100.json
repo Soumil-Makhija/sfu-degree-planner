@@ -1,0 +1,58 @@
+{
+  "info": {
+    "section": "D100",
+    "units": "3",
+    "title": "Applied Linear Algebra",
+    "type": "e",
+    "classNumber": "4481",
+    "prerequisites": "MATH 150 or 151 or MACM 101, with a minimum grade of C-; or MATH 154 or 157, both with a grade of at least B.",
+    "corequisites": "",
+    "number": "232",
+    "outlinePath": "2026/fall/math/232/d100",
+    "term": "Fall 2026",
+    "dept": "MATH",
+    "notes": "Students with credit for MATH 240 may not take this course for further credit."
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Sat Oct 17 00:00:00 PDT 2026",
+      "campus": "Burnaby",
+      "days": "Mo, We, Fr",
+      "sectionCode": "LEC",
+      "startTime": "11:30",
+      "isExam": false,
+      "endTime": "12:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    },
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Mo, We, Fr",
+      "sectionCode": "LEC",
+      "startTime": "11:30",
+      "isExam": false,
+      "endTime": "12:20",
+      "startDate": "Sun Oct 18 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Thu Dec 10 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Th",
+      "startTime": "8:30",
+      "isExam": true,
+      "endTime": "11:30",
+      "startDate": "Thu Dec 10 00:00:00 PST 2026"
+    },
+    {
+      "endDate": "Thu Dec 10 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Th",
+      "startTime": "8:30",
+      "isExam": true,
+      "endTime": "11:30",
+      "startDate": "Thu Dec 10 00:00:00 PST 2026"
+    }
+  ]
+}

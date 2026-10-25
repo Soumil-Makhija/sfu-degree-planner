@@ -1,0 +1,49 @@
+{
+  "info": {
+    "section": "D100",
+    "units": "3",
+    "title": "Data Structures and Programming",
+    "type": "e",
+    "classNumber": "4849",
+    "prerequisites": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+    "corequisites": "",
+    "number": "225",
+    "outlinePath": "2026/fall/cmpt/225/d100",
+    "term": "Fall 2026",
+    "dept": "CMPT",
+    "notes": ""
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Tu",
+      "sectionCode": "LEC",
+      "startTime": "11:30",
+      "isExam": false,
+      "endTime": "13:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    },
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Th",
+      "sectionCode": "LEC",
+      "startTime": "11:30",
+      "isExam": false,
+      "endTime": "12:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Thu Dec 17 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Th",
+      "startTime": "12:00",
+      "isExam": true,
+      "endTime": "14:00",
+      "startDate": "Thu Dec 17 00:00:00 PST 2026"
+    }
+  ]
+}

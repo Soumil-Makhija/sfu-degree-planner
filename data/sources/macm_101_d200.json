@@ -1,0 +1,49 @@
+{
+  "info": {
+    "section": "D200",
+    "units": "3",
+    "title": "Discrete Mathematics I",
+    "type": "e",
+    "classNumber": "4936",
+    "prerequisites": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+    "corequisites": "",
+    "number": "101",
+    "outlinePath": "2026/fall/macm/101/d200",
+    "term": "Fall 2026",
+    "dept": "MACM",
+    "notes": ""
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Tu",
+      "sectionCode": "LEC",
+      "startTime": "8:30",
+      "isExam": false,
+      "endTime": "10:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    },
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Th",
+      "sectionCode": "LEC",
+      "startTime": "8:30",
+      "isExam": false,
+      "endTime": "9:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Mon Dec 14 00:00:00 PST 2026",
+      "campus": "Surrey",
+      "days": "Mo",
+      "startTime": "8:30",
+      "isExam": true,
+      "endTime": "11:30",
+      "startDate": "Mon Dec 14 00:00:00 PST 2026"
+    }
+  ]
+}

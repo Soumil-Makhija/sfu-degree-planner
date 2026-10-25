@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sfu-degree-planner"
+version = "0.1.0"
+description = "Local SFU timetable constraint solver and transparent degree audit"
+requires-python = ">=3.11"
+dependencies = ["z3-solver==4.15.4.0"]
+license = "MIT"
+
+[tool.setuptools.packages.find]
+include = ["sfu_planner*"]
+
+[tool.setuptools.package-data]
+sfu_planner = ["data/*.json", "static/*"]

@@ -1,0 +1,39 @@
+{
+  "info": {
+    "section": "D300",
+    "units": "3",
+    "title": "Discrete Mathematics I",
+    "type": "e",
+    "classNumber": "4937",
+    "prerequisites": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+    "corequisites": "",
+    "number": "101",
+    "outlinePath": "2026/fall/macm/101/d300",
+    "term": "Fall 2026",
+    "dept": "MACM",
+    "notes": ""
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Mo, We, Fr",
+      "sectionCode": "LEC",
+      "startTime": "16:30",
+      "isExam": false,
+      "endTime": "17:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": [
+    {
+      "endDate": "Fri Dec 18 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "Fr",
+      "startTime": "19:00",
+      "isExam": true,
+      "endTime": "22:00",
+      "startDate": "Fri Dec 18 00:00:00 PST 2026"
+    }
+  ]
+}

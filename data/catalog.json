@@ -1,0 +1,3762 @@
+{
+  "term": "2026-fall",
+  "timezone": "America/Vancouver",
+  "schema_version": 1,
+  "source": {
+    "name": "Simon Fraser University public course outlines API",
+    "base_url": "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/",
+    "fetched_at": "2026-10-25T16:03:25.187977+00:00",
+    "manifest": "manifest.json"
+  },
+  "notes": [
+    "Ten-course curated Fall 2026 snapshot, not the full SFU catalog or live seat availability.",
+    "Each section is a complete lecture plus one linked required LAB/TUT of each listed kind.",
+    "Optional OPL workshops are listed in optional_components and excluded from enrollment bundles.",
+    "Final exams are included as date-specific EXAM meetings; holidays are not modeled.",
+    "Manual prerequisites require advisor verification; no equivalencies or waivers are inferred."
+  ],
+  "courses": [
+    {
+      "id": "CMPT 120",
+      "title": "Introduction to Computing Science and Programming I",
+      "units": 3.0,
+      "prerequisite": {
+        "all": []
+      },
+      "prerequisite_text": "BC Math 12 or equivalent is recommended.",
+      "prerequisite_review": [],
+      "credit_exclusions": [
+        "CMPT 102",
+        "CMPT 128",
+        "CMPT 130",
+        "CMPT 166",
+        "CMPT 125",
+        "CMPT 129",
+        "CMPT 135"
+      ],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "Students with credit for CMPT 102, 128, 130 or 166 may not take this course for further credit. Students who have taken CMPT 125, 129, 130 or 135 first may not then take this course for further credit.",
+      "sections": [
+        {
+          "id": "D100",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 570,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-16",
+              "end_date": "2026-12-16",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/120/d100"
+          ]
+        },
+        {
+          "id": "D200",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-16",
+              "end_date": "2026-12-16",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/120/d200"
+          ]
+        },
+        {
+          "id": "D300",
+          "components": [
+            {
+              "id": "D300",
+              "kind": "LEC",
+              "associated_class": "3"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D300"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D300"
+            },
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-16",
+              "end_date": "2026-12-16",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D300"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/120/d300"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/120/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/120"
+      ],
+      "optional_components": []
+    },
+    {
+      "id": "CMPT 125",
+      "title": "Introduction to Computing Science and Programming II",
+      "units": 3.0,
+      "prerequisite": {
+        "any": [
+          {
+            "course": "CMPT 120",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CMPT 130",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "prerequisite_text": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+      "prerequisite_review": [],
+      "credit_exclusions": [
+        "CMPT 126",
+        "CMPT 129",
+        "CMPT 135"
+      ],
+      "credit_exclusion_ranges": [
+        {
+          "subject": "CMPT",
+          "min_number": 200,
+          "max_number": 999
+        }
+      ],
+      "restriction_text": "Students with credit for CMPT 126, 129, 135 or CMPT 200 or higher may not take this course for further credit.",
+      "sections": [
+        {
+          "id": "D100+D101",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D101",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-15",
+              "end_date": "2026-12-15",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D101"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d101"
+          ]
+        },
+        {
+          "id": "D100+D102",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D102",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-15",
+              "end_date": "2026-12-15",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D102"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d102"
+          ]
+        },
+        {
+          "id": "D100+D103",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D103",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-15",
+              "end_date": "2026-12-15",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 750,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D103"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d103"
+          ]
+        },
+        {
+          "id": "D100+D104",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D104",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-15",
+              "end_date": "2026-12-15",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 810,
+              "end": 860,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D104"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125/d104"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/125/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/125"
+      ],
+      "optional_components": []
+    },
+    {
+      "id": "CMPT 225",
+      "title": "Data Structures and Programming",
+      "units": 3.0,
+      "prerequisite": {
+        "any": [
+          {
+            "all": [
+              {
+                "course": "MACM 101",
+                "min_grade": "C-"
+              },
+              {
+                "any": [
+                  {
+                    "course": "CMPT 125",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "CMPT 129",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "CMPT 135",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "course": "ENSC 251",
+                "min_grade": "C-"
+              },
+              {
+                "course": "ENSC 252",
+                "min_grade": "C-"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisite_text": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+      "prerequisite_review": [],
+      "credit_exclusions": [],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "",
+      "sections": [
+        {
+          "id": "D100+D101",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D101",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-17",
+              "end_date": "2026-12-17",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 870,
+              "end": 920,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LAB",
+              "component": "D101"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d101"
+          ]
+        },
+        {
+          "id": "D100+D102",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D102",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-17",
+              "end_date": "2026-12-17",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 870,
+              "end": 920,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LAB",
+              "component": "D102"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d102"
+          ]
+        },
+        {
+          "id": "D100+D103",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D103",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-17",
+              "end_date": "2026-12-17",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LAB",
+              "component": "D103"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d103"
+          ]
+        },
+        {
+          "id": "D100+D104",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D104",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-17",
+              "end_date": "2026-12-17",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LAB",
+              "component": "D104"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d104"
+          ]
+        },
+        {
+          "id": "D100+D105",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D105",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-17",
+              "end_date": "2026-12-17",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 870,
+              "end": 920,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LAB",
+              "component": "D105"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d105"
+          ]
+        },
+        {
+          "id": "D100+D106",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D106",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-17",
+              "end_date": "2026-12-17",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 870,
+              "end": 920,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LAB",
+              "component": "D106"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d106"
+          ]
+        },
+        {
+          "id": "D100+D107",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D107",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-17",
+              "end_date": "2026-12-17",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LAB",
+              "component": "D107"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d107"
+          ]
+        },
+        {
+          "id": "D100+D108",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D108",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-17",
+              "end_date": "2026-12-17",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LAB",
+              "component": "D108"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d108"
+          ]
+        },
+        {
+          "id": "D200+D201",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D201",
+              "kind": "LAB",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 1140,
+              "end": 1320,
+              "start_date": "2026-12-11",
+              "end_date": "2026-12-11",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 870,
+              "end": 920,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D201"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d201"
+          ]
+        },
+        {
+          "id": "D200+D202",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D202",
+              "kind": "LAB",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 1140,
+              "end": 1320,
+              "start_date": "2026-12-11",
+              "end_date": "2026-12-11",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D202"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d202"
+          ]
+        },
+        {
+          "id": "D200+D203",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D203",
+              "kind": "LAB",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 1140,
+              "end": 1320,
+              "start_date": "2026-12-11",
+              "end_date": "2026-12-11",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 990,
+              "end": 1040,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D203"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d203"
+          ]
+        },
+        {
+          "id": "D200+D204",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D204",
+              "kind": "LAB",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 690,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 1140,
+              "end": 1320,
+              "start_date": "2026-12-11",
+              "end_date": "2026-12-11",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 1050,
+              "end": 1100,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D204"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225/d204"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/225/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/225"
+      ],
+      "optional_components": []
+    },
+    {
+      "id": "CMPT 276",
+      "title": "Introduction to Software Engineering",
+      "units": 3.0,
+      "prerequisite": {
+        "all": [
+          {
+            "manual": "One W course with a minimum grade of C- must be verified."
+          },
+          {
+            "course": "CMPT 225",
+            "min_grade": "C-"
+          },
+          {
+            "any": [
+              {
+                "course": "MACM 101",
+                "min_grade": "C-"
+              },
+              {
+                "all": [
+                  {
+                    "course": "ENSC 251",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "ENSC 252",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "course": "MATH 151",
+                "min_grade": "C-"
+              },
+              {
+                "course": "MATH 150",
+                "min_grade": "C-"
+              },
+              {
+                "course": "MATH 154",
+                "min_grade": "B+"
+              },
+              {
+                "course": "MATH 157",
+                "min_grade": "B+"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisite_text": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
+      "prerequisite_review": [],
+      "credit_exclusions": [
+        "CMPT 275"
+      ],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "Students with credit for CMPT 275 may not take this course for further credit.",
+      "sections": [
+        {
+          "id": "D100",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 810,
+              "end": 860,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 750,
+              "end": 860,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-19",
+              "end_date": "2026-12-19",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/276/d100"
+          ]
+        },
+        {
+          "id": "D200",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                2
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 630,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 1140,
+              "end": 1260,
+              "start_date": "2026-12-15",
+              "end_date": "2026-12-15",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D200"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/276/d200"
+          ]
+        },
+        {
+          "id": "D300",
+          "components": [
+            {
+              "id": "D300",
+              "kind": "LEC",
+              "associated_class": "3"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D300"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 570,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D300"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 720,
+              "end": 840,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D300"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/276/d300"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/276/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/276"
+      ],
+      "optional_components": []
+    },
+    {
+      "id": "CMPT 295",
+      "title": "Introduction to Computer Systems",
+      "units": 4.0,
+      "prerequisite": {
+        "any": [
+          {
+            "all": [
+              {
+                "course": "MACM 101",
+                "min_grade": "C-"
+              },
+              {
+                "any": [
+                  {
+                    "course": "CMPT 125",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "CMPT 135",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "course": "MATH 151",
+                "min_grade": "C-"
+              },
+              {
+                "course": "CMPT 102",
+                "min_grade": "C-"
+              },
+              {
+                "manual": "Applied Physics program membership must be verified."
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisite_text": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+      "prerequisite_review": [],
+      "credit_exclusions": [],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "",
+      "sections": [
+        {
+          "id": "D100+D101",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D101",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 870,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-10",
+              "end_date": "2026-12-10",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0,
+                4
+              ],
+              "start": 570,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D101"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d101"
+          ]
+        },
+        {
+          "id": "D100+D102",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D102",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 870,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-10",
+              "end_date": "2026-12-10",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D102"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d102"
+          ]
+        },
+        {
+          "id": "D100+D103",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D103",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 870,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-10",
+              "end_date": "2026-12-10",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D103"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d103"
+          ]
+        },
+        {
+          "id": "D100+D104",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D104",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 870,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-10",
+              "end_date": "2026-12-10",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 750,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D104"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d104"
+          ]
+        },
+        {
+          "id": "D100+D105",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D105",
+              "kind": "LAB",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 870,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-10",
+              "end_date": "2026-12-10",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 570,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LAB",
+              "component": "D105"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295/d105"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/295/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/cmpt/295"
+      ],
+      "optional_components": []
+    },
+    {
+      "id": "MACM 101",
+      "title": "Discrete Mathematics I",
+      "units": 3.0,
+      "prerequisite": {
+        "any": [
+          {
+            "manual": "BC Pre-Calculus 12, BC Calculus 12, or an accepted equivalent must be verified."
+          },
+          {
+            "any": [
+              {
+                "course": "MATH 100",
+                "min_grade": "D"
+              },
+              {
+                "course": "MATH 150",
+                "min_grade": "D"
+              },
+              {
+                "course": "MATH 151",
+                "min_grade": "D"
+              },
+              {
+                "course": "MATH 154",
+                "min_grade": "D"
+              },
+              {
+                "course": "MATH 157",
+                "min_grade": "D"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisite_text": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+      "prerequisite_review": [],
+      "credit_exclusions": [],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "",
+      "sections": [
+        {
+          "id": "D100+D101",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D101",
+              "kind": "TUT",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-12",
+              "end_date": "2026-12-12",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 870,
+              "end": 920,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D101"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d101"
+          ]
+        },
+        {
+          "id": "D100+D102",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D102",
+              "kind": "TUT",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-12",
+              "end_date": "2026-12-12",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 870,
+              "end": 920,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D102"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d102"
+          ]
+        },
+        {
+          "id": "D100+D103",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D103",
+              "kind": "TUT",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-12",
+              "end_date": "2026-12-12",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D103"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d103"
+          ]
+        },
+        {
+          "id": "D100+D104",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D104",
+              "kind": "TUT",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-12",
+              "end_date": "2026-12-12",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D104"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d104"
+          ]
+        },
+        {
+          "id": "D100+D105",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D105",
+              "kind": "TUT",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-12",
+              "end_date": "2026-12-12",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 750,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D105"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d105"
+          ]
+        },
+        {
+          "id": "D100+D106",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D106",
+              "kind": "TUT",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-12",
+              "end_date": "2026-12-12",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 750,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D106"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d106"
+          ]
+        },
+        {
+          "id": "D100+D107",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D107",
+              "kind": "TUT",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-12",
+              "end_date": "2026-12-12",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 810,
+              "end": 860,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D107"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d107"
+          ]
+        },
+        {
+          "id": "D100+D108",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            },
+            {
+              "id": "D108",
+              "kind": "TUT",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 630,
+              "end": 680,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                5
+              ],
+              "start": 720,
+              "end": 900,
+              "start_date": "2026-12-12",
+              "end_date": "2026-12-12",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 810,
+              "end": 860,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D108"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d100",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d108"
+          ]
+        },
+        {
+          "id": "D200+D201",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D201",
+              "kind": "TUT",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 570,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "TUT",
+              "component": "D201"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d201"
+          ]
+        },
+        {
+          "id": "D200+D202",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D202",
+              "kind": "TUT",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 570,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "TUT",
+              "component": "D202"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d202"
+          ]
+        },
+        {
+          "id": "D200+D203",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D203",
+              "kind": "TUT",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 810,
+              "end": 860,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "TUT",
+              "component": "D203"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d203"
+          ]
+        },
+        {
+          "id": "D200+D204",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D204",
+              "kind": "TUT",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 810,
+              "end": 860,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "TUT",
+              "component": "D204"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d204"
+          ]
+        },
+        {
+          "id": "D200+D205",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D205",
+              "kind": "TUT",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "TUT",
+              "component": "D205"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d205"
+          ]
+        },
+        {
+          "id": "D200+D206",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D206",
+              "kind": "TUT",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "TUT",
+              "component": "D206"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d206"
+          ]
+        },
+        {
+          "id": "D200+D207",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D207",
+              "kind": "TUT",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 750,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "TUT",
+              "component": "D207"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d207"
+          ]
+        },
+        {
+          "id": "D200+D208",
+          "components": [
+            {
+              "id": "D200",
+              "kind": "LEC",
+              "associated_class": "2"
+            },
+            {
+              "id": "D208",
+              "kind": "TUT",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D200"
+            },
+            {
+              "days": [
+                0
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-14",
+              "end_date": "2026-12-14",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D200"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 750,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "TUT",
+              "component": "D208"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d200",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d208"
+          ]
+        },
+        {
+          "id": "D300+D302",
+          "components": [
+            {
+              "id": "D300",
+              "kind": "LEC",
+              "associated_class": "3"
+            },
+            {
+              "id": "D302",
+              "kind": "TUT",
+              "associated_class": "3"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 990,
+              "end": 1040,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D300"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 1140,
+              "end": 1320,
+              "start_date": "2026-12-18",
+              "end_date": "2026-12-18",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D300"
+            },
+            {
+              "days": [
+                2
+              ],
+              "start": 870,
+              "end": 920,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D302"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d300",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d302"
+          ]
+        },
+        {
+          "id": "D300+D303",
+          "components": [
+            {
+              "id": "D300",
+              "kind": "LEC",
+              "associated_class": "3"
+            },
+            {
+              "id": "D303",
+              "kind": "TUT",
+              "associated_class": "3"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 990,
+              "end": 1040,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D300"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 1140,
+              "end": 1320,
+              "start_date": "2026-12-18",
+              "end_date": "2026-12-18",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D300"
+            },
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D303"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d300",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d303"
+          ]
+        },
+        {
+          "id": "D300+D307",
+          "components": [
+            {
+              "id": "D300",
+              "kind": "LEC",
+              "associated_class": "3"
+            },
+            {
+              "id": "D307",
+              "kind": "TUT",
+              "associated_class": "3"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 990,
+              "end": 1040,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D300"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 1140,
+              "end": 1320,
+              "start_date": "2026-12-18",
+              "end_date": "2026-12-18",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D300"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 930,
+              "end": 980,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "TUT",
+              "component": "D307"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d300",
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101/d307"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/macm/101/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/101"
+      ],
+      "optional_components": []
+    },
+    {
+      "id": "MACM 201",
+      "title": "Discrete Mathematics II",
+      "units": 3.0,
+      "prerequisite": {
+        "any": [
+          {
+            "course": "MATH 141",
+            "min_grade": "D"
+          },
+          {
+            "course": "MACM 101",
+            "min_grade": "D"
+          },
+          {
+            "all": [
+              {
+                "course": "ENSC 251",
+                "min_grade": "D"
+              },
+              {
+                "any": [
+                  {
+                    "course": "MATH 232",
+                    "min_grade": "D"
+                  },
+                  {
+                    "course": "MATH 240",
+                    "min_grade": "D"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisite_text": "MATH 141 or MACM 101 or (ENSC 251 and one of MATH 232 or MATH 240).",
+      "prerequisite_review": [],
+      "credit_exclusions": [],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "",
+      "sections": [
+        {
+          "id": "D100",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0
+              ],
+              "start": 750,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                2,
+                4
+              ],
+              "start": 750,
+              "end": 800,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                4
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-18",
+              "end_date": "2026-12-18",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/201/d100"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/macm/201/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/macm/201"
+      ],
+      "optional_components": [
+        {
+          "text": "OP01",
+          "value": "op01",
+          "title": "Discrete Mathematics II",
+          "classType": "n",
+          "sectionCode": "OPL",
+          "associatedClass": "200"
+        }
+      ]
+    },
+    {
+      "id": "MATH 151",
+      "title": "Calculus I",
+      "units": 3.0,
+      "prerequisite": {
+        "any": [
+          {
+            "manual": "Pre-Calculus 12 or an accepted equivalent with grade A or higher must be verified."
+          },
+          {
+            "course": "MATH 100",
+            "min_grade": "B"
+          },
+          {
+            "course": "MATH 110",
+            "min_grade": "A"
+          }
+        ]
+      },
+      "prerequisite_text": "Pre-Calculus 12 (or equivalent) with a grade of at least A, or MATH 100 with a grade of at least B, or MATH 110 with a grade of at least A.",
+      "prerequisite_review": [],
+      "credit_exclusions": [
+        "MATH 150",
+        "MATH 154",
+        "MATH 157"
+      ],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "Students with credit for either MATH 150, 154 or 157 may not take MATH 151 for further credit.",
+      "sections": [
+        {
+          "id": "D100",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-09",
+              "end_date": "2026-12-09",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/151/d100"
+          ]
+        },
+        {
+          "id": "D400",
+          "components": [
+            {
+              "id": "D400",
+              "kind": "LEC",
+              "associated_class": "3"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 570,
+              "end": 620,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D400"
+            },
+            {
+              "days": [
+                2
+              ],
+              "start": 930,
+              "end": 1110,
+              "start_date": "2026-12-09",
+              "end_date": "2026-12-09",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D400"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/151/d400"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/151/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/151"
+      ],
+      "optional_components": [
+        {
+          "text": "OP01",
+          "value": "op01",
+          "title": "Calculus I",
+          "classType": "n",
+          "sectionCode": "OPL",
+          "associatedClass": "200"
+        },
+        {
+          "text": "OP02",
+          "value": "op02",
+          "title": "Calculus I",
+          "classType": "n",
+          "sectionCode": "OPL",
+          "associatedClass": "200"
+        }
+      ]
+    },
+    {
+      "id": "MATH 152",
+      "title": "Calculus II",
+      "units": 3.0,
+      "prerequisite": {
+        "any": [
+          {
+            "any": [
+              {
+                "course": "MATH 150",
+                "min_grade": "C-"
+              },
+              {
+                "course": "MATH 151",
+                "min_grade": "C-"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "course": "MATH 154",
+                "min_grade": "B"
+              },
+              {
+                "course": "MATH 157",
+                "min_grade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisite_text": "MATH 150 or MATH 151, with a minimum grade of C-; or MATH 154 or MATH 157, with a minimum grade of B.",
+      "prerequisite_review": [],
+      "credit_exclusions": [
+        "MATH 155",
+        "MATH 158"
+      ],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "Students with credit for MATH 155 or MATH 158 may not take this course for further credit.",
+      "sections": [
+        {
+          "id": "D100",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 510,
+              "end": 560,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                1
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-15",
+              "end_date": "2026-12-15",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/152/d100"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/152/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/152"
+      ],
+      "optional_components": [
+        {
+          "text": "OP01",
+          "value": "op01",
+          "title": "Calculus II",
+          "classType": "n",
+          "sectionCode": "OPL",
+          "associatedClass": "200"
+        }
+      ]
+    },
+    {
+      "id": "MATH 232",
+      "title": "Applied Linear Algebra",
+      "units": 3.0,
+      "prerequisite": {
+        "any": [
+          {
+            "any": [
+              {
+                "course": "MATH 150",
+                "min_grade": "C-"
+              },
+              {
+                "course": "MATH 151",
+                "min_grade": "C-"
+              },
+              {
+                "course": "MACM 101",
+                "min_grade": "C-"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "course": "MATH 154",
+                "min_grade": "B"
+              },
+              {
+                "course": "MATH 157",
+                "min_grade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisite_text": "MATH 150 or 151 or MACM 101, with a minimum grade of C-; or MATH 154 or 157, both with a grade of at least B.",
+      "prerequisite_review": [],
+      "credit_exclusions": [
+        "MATH 240"
+      ],
+      "credit_exclusion_ranges": [],
+      "restriction_text": "Students with credit for MATH 240 may not take this course for further credit.",
+      "sections": [
+        {
+          "id": "D100",
+          "components": [
+            {
+              "id": "D100",
+              "kind": "LEC",
+              "associated_class": "1"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-09-09",
+              "end_date": "2026-10-17",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 690,
+              "end": 740,
+              "start_date": "2026-10-18",
+              "end_date": "2026-12-07",
+              "campus": "Burnaby",
+              "kind": "LEC",
+              "component": "D100"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-10",
+              "end_date": "2026-12-10",
+              "campus": "Burnaby",
+              "kind": "EXAM",
+              "component": "D100"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/232/d100"
+          ]
+        },
+        {
+          "id": "D400",
+          "components": [
+            {
+              "id": "D400",
+              "kind": "LEC",
+              "associated_class": "2"
+            }
+          ],
+          "meetings": [
+            {
+              "days": [
+                0,
+                2,
+                4
+              ],
+              "start": 810,
+              "end": 860,
+              "start_date": "2026-09-09",
+              "end_date": "2026-12-07",
+              "campus": "Surrey",
+              "kind": "LEC",
+              "component": "D400"
+            },
+            {
+              "days": [
+                3
+              ],
+              "start": 510,
+              "end": 690,
+              "start_date": "2026-12-10",
+              "end_date": "2026-12-10",
+              "campus": "Surrey",
+              "kind": "EXAM",
+              "component": "D400"
+            }
+          ],
+          "source_urls": [
+            "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/232/d400"
+          ]
+        }
+      ],
+      "calendar_url": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/232/",
+      "source_urls": [
+        "https://www.sfu.ca/bin/wcm/course-outlines?2026/fall/math/232"
+      ],
+      "optional_components": [
+        {
+          "text": "OP01",
+          "value": "op01",
+          "title": "Applied Linear Algebra",
+          "classType": "n",
+          "sectionCode": "OPL",
+          "associatedClass": "200"
+        },
+        {
+          "text": "OP02",
+          "value": "op02",
+          "title": "Applied Linear Algebra",
+          "classType": "n",
+          "sectionCode": "OPL",
+          "associatedClass": "200"
+        }
+      ]
+    }
+  ]
+}

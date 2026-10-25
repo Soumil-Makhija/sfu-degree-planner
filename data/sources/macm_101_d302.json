@@ -1,0 +1,29 @@
+{
+  "info": {
+    "section": "D302",
+    "units": "3",
+    "title": "Discrete Mathematics I",
+    "type": "n",
+    "classNumber": "4958",
+    "prerequisites": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+    "corequisites": "",
+    "number": "101",
+    "outlinePath": "2026/fall/macm/101/d302",
+    "term": "Fall 2026",
+    "dept": "MACM",
+    "notes": ""
+  },
+  "courseSchedule": [
+    {
+      "endDate": "Mon Dec 07 00:00:00 PST 2026",
+      "campus": "Burnaby",
+      "days": "We",
+      "sectionCode": "TUT",
+      "startTime": "14:30",
+      "isExam": false,
+      "endTime": "15:20",
+      "startDate": "Wed Sep 09 00:00:00 PDT 2026"
+    }
+  ],
+  "examSchedule": []
+}
