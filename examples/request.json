@@ -1,0 +1,29 @@
+{
+  "transcript": [
+    {
+      "course": "CMPT 120",
+      "grade": "A",
+      "institution": "SFU"
+    },
+    {
+      "course": "MATH 151",
+      "grade": "A",
+      "institution": "SFU"
+    },
+    {
+      "course": "MACM 101",
+      "grade": "A",
+      "institution": "SFU"
+    }
+  ],
+  "courses": [
+    "CMPT 125",
+    "MATH 152",
+    "MACM 201"
+  ],
+  "busy": [],
+  "max_units": 18,
+  "travel_minutes": 60,
+  "limit": 5,
+  "confirmations": []
+}

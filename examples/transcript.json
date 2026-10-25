@@ -1,0 +1,17 @@
+[
+  {
+    "course": "CMPT 120",
+    "grade": "A",
+    "institution": "SFU"
+  },
+  {
+    "course": "MATH 151",
+    "grade": "A",
+    "institution": "SFU"
+  },
+  {
+    "course": "MACM 101",
+    "grade": "A",
+    "institution": "SFU"
+  }
+]
