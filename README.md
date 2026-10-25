@@ -34,4 +34,42 @@ Factual source projections and hashes live in `data/sources/` and
 `data/manifest.json`. Rebuild the normalized catalog offline with
 `python scripts/fetch_sfu.py --offline`; refresh explicitly by omitting `--offline`.
 
-CLI, browser interface and full audit integration are the next milestone.
+## Local CLI and interface
+
+```sh
+.venv/bin/sfu-plan demo
+.venv/bin/sfu-plan --output plan.json plan --request request.json
+.venv/bin/sfu-plan audit --transcript transcript.json
+.venv/bin/sfu-plan graph
+.venv/bin/sfu-plan serve --port 8765
+```
+
+Open `http://127.0.0.1:8765` for the browser interface. Transcripts stay in
+browser/server memory: no persistence, telemetry or transcript logs. Planning
+uses the bundled snapshot without network access. Close the server with Ctrl-C.
+
+A request example (grades are synthetic):
+
+```json
+{
+  "courses": ["CMPT 125", "MATH 152", "MACM 201"],
+  "transcript": [
+    {"course": "CMPT 120", "grade": "A", "institution": "SFU"},
+    {"course": "MATH 151", "grade": "A", "institution": "SFU"},
+    {"course": "MACM 101", "grade": "A", "institution": "SFU"}
+  ],
+  "busy": [], "max_units": 18, "travel_minutes": 60, "limit": 5,
+  "confirmations": []
+}
+```
+
+The example has four complete schedules. CLI exit codes: 0 for completed
+commands, 2 for impossible or unknown planning results, 1 for invalid input.
+The audit's `incomplete`/`manual_review` statuses are reported in JSON; no audit
+certifies graduation. See [the academic model](docs/academic-model.md) for
+covered rules, transfer treatment and official-review requirements.
+
+Schedules require one bundle for every requested course. Semester units,
+busy periods and inter-campus travel time are enforced. `confirmations` contains
+exact manual-condition strings; those assumptions appear in results and do not
+constitute institutional verification. This planner does not plan retakes.

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#166c65">
+  <title>SFU Degree Planner · Local planning workspace</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to planning workspace</a>
+  <header class="site-header">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">S</span><div><strong>SFU Degree Planner</strong><span>Independent planning workspace</span></div></div>
+    <span class="local-badge"><span aria-hidden="true">●</span> Local session</span>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">A clearer path through your courses</p><h1 id="page-title">Make room for what’s next.</h1><p class="intro-copy">Build a feasible timetable, trace prerequisites, and see how completed courses fit a Computing Science BSc.</p></div>
+      <div class="snapshot"><span class="eyebrow">Course snapshot</span><strong id="snapshot-term">Loading…</strong><span id="snapshot-count">America/Vancouver</span><a id="snapshot-source" href="#source-notes">View data & limitations <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <div class="notice"><span class="notice-icon" aria-hidden="true">i</span><p><strong>A planning aid, with its assumptions in view.</strong> This curated snapshot has no live seat availability. Results use your supplied records; SFU determines registration, credit, and graduation.</p></div>
+    <p id="status" class="session-status" role="status" aria-live="polite">Loading the offline course snapshot…</p>
+    <div class="workspace" id="workspace">
+      <aside class="inputs" aria-label="Planning inputs">
+        <section class="panel records-panel" aria-labelledby="records-title">
+          <div class="section-heading"><div><p class="eyebrow">01 / Your starting point</p><h2 id="records-title">Completed courses</h2></div><button id="load-example" class="button subtle" type="button" disabled>Load example</button></div>
+          <p class="help" id="transcript-help">Paste course records as JSON. Use canonical IDs and actual grades; add <code>institution: "SFU"</code> where known. These records stay in this local session.</p>
+          <label class="field-label" for="transcript">Transcript records <span>JSON array</span></label>
+          <textarea id="transcript" rows="9" spellcheck="false" aria-describedby="transcript-help">[]</textarea>
+          <div class="privacy-note"><span aria-hidden="true">⌁</span> No account, browser storage, or external transcript service.</div>
+        </section>
+        <section class="panel" aria-labelledby="courses-title">
+          <div class="section-heading"><div><p class="eyebrow">02 / Your next term</p><h2 id="courses-title">Choose courses</h2></div><span class="count-badge" id="selection-count">0 selected</span></div>
+          <p class="help">Every selected course is required. Expand a course to inspect its prerequisite and credit exclusions.</p>
+          <div id="course-list" class="course-list"><p class="help">Loading courses…</p></div>
+        </section>
+        <section class="panel" aria-labelledby="preferences-title">
+          <p class="eyebrow">03 / Make it fit</p><h2 id="preferences-title">Planning preferences</h2>
+          <div class="field-pair"><div><label class="field-label" for="max-units">Maximum units</label><input id="max-units" type="number" min="1" max="40" step="0.5" value="18"></div><div><label class="field-label" for="travel">Campus travel <span>minutes</span></label><input id="travel" type="number" min="0" max="240" step="1" value="60"></div></div>
+          <label class="field-label" for="schedule-limit">Maximum schedules to show</label><select id="schedule-limit"><option value="5">5 schedules</option><option value="10">10 schedules</option><option value="25">25 schedules</option></select>
+          <details class="advanced"><summary>Busy times & advanced input</summary><p class="help" id="busy-help">JSON array of meetings: weekdays are 0 = Monday through 6 = Sunday; times are minutes after midnight. Include dates, campus, and kind.</p><label class="field-label" for="busy">Busy meetings <span>JSON array</span></label><textarea id="busy" rows="5" spellcheck="false" aria-describedby="busy-help">[]</textarea><details class="example-shape"><summary>Show a busy-time example</summary><pre>[{"days":[0],"start":720,"end":780,
+"start_date":"2026-09-09",
+"end_date":"2026-12-07",
+"campus":"Burnaby","kind":"LEC"}]</pre></details></details>
+          <div id="assumptions" class="assumptions" hidden><h3>Conditions to verify</h3><p class="help">Confirm only conditions you have verified. A checked condition is a user-supplied assumption, not advisor approval. A completed course may already satisfy an OR alternative; not every condition needs a check.</p><div id="confirmation-list"></div></div>
+          <button id="generate" class="button primary full" type="button" disabled>Generate timetables <span aria-hidden="true">→</span></button>
+          <button id="audit-button" class="button secondary full" type="button" disabled>Audit completed courses</button>
+        </section>
+      </aside>
+      <section class="results" aria-label="Planning results">
+        <div class="tabs" role="tablist" aria-label="Workspace views"><button id="tab-plan" role="tab" aria-controls="panel-plan" aria-selected="true" tabindex="0" type="button">Timetable</button><button id="tab-audit" role="tab" aria-controls="panel-audit" aria-selected="false" tabindex="-1" type="button">Degree audit</button><button id="tab-graph" role="tab" aria-controls="panel-graph" aria-selected="false" tabindex="-1" type="button">Prerequisites</button></div>
+        <section id="panel-plan" class="tab-panel" role="tabpanel" aria-labelledby="tab-plan" tabindex="0"><div id="plan-results"><div class="empty-state"><div class="empty-illustration" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div><p class="eyebrow">A little planning goes a long way</p><h2>Your next term starts here.</h2><p>Select courses and add your completed records to find compatible section bundles, including labs, tutorials, exams, and time to change campuses.</p><p class="empty-tip">Try <strong>Load example</strong> for a complete working plan.</p></div></div></section>
+        <section id="panel-audit" class="tab-panel" role="tabpanel" aria-labelledby="tab-audit" tabindex="0" hidden><div id="audit-results"><div class="empty-state"><span class="empty-symbol" aria-hidden="true">✓</span><p class="eyebrow">Progress, with the details</p><h2>See where your courses count.</h2><p>Run an audit of completed courses to inspect degree units, required courses, breadth, writing, and the checks that still need official review.</p><button id="audit-empty" class="button primary" type="button">Audit completed courses</button></div></div></section>
+        <section id="panel-graph" class="tab-panel" role="tabpanel" aria-labelledby="tab-graph" tabindex="0" hidden><div class="panel"><p class="eyebrow">Follow the connections</p><h2>Prerequisite dependencies</h2><p class="help">These edges show course dependencies. AND / OR paths and minimum grades preserve how each dependency occurs. Manual conditions remain in each course’s full expression.</p><div id="graph-results"></div></div></section>
+      </section>
+    </div>
+    <footer id="source-notes" class="source-notes"><div><p class="eyebrow">Know the boundaries</p><h2>Sources & modeled scope</h2><p id="source-summary">Public SFU course outlines, captured for offline and reproducible planning.</p><ul id="catalog-notes"></ul></div><div><p class="eyebrow">Academic scope</p><p>Degree audit: Fall 2026 Computing Science major, first-degree, single-major BSc. Course metadata and modeled rules are a reviewed subset.</p><p>Historical credit exclusions, transfer articulation, substitutions, repeat permissions, GPAs, residency, cohort applicability, and final approval require review. Passed-course repeats are excluded from timetable planning.</p><p class="small">Independent software. No institutional affiliation or approval.</p></div></footer>
+  </main>
+</body>
+</html>

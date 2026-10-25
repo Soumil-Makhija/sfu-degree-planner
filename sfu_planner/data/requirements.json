@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "academic_year": "Fall 2026",
+  "program": "Computing Science Major, Bachelor of Science (first degree, single major)",
+  "reviewed_on": "2026-10-25",
+  "sources": {
+    "program": "https://www.sfu.ca/students/calendar/2026/fall/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts.html",
+    "credentials": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/credentials-offered/definitions.html",
+    "wqb": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/enrolment/WQB.html",
+    "residency": "https://www.sfu.ca/students/calendar/2026/fall/faculties-research/faculty-applied-sciences.html",
+    "grading": "https://www.sfu.ca/students/calendar/2026/fall/fees-and-regulations/grading-policy/grading-systems-and-policies.html"
+  },
+  "lower_required": [
+    "CMPT 105W",
+    "CMPT 120",
+    "CMPT 125",
+    "CMPT 201",
+    "CMPT 210",
+    "CMPT 225",
+    "CMPT 276",
+    "CMPT 295",
+    "MACM 101",
+    "STAT 271"
+  ],
+  "alternatives": [
+    {
+      "id": "calculus_i",
+      "label": "Calculus I",
+      "courses": [
+        "MATH 150",
+        "MATH 151"
+      ],
+      "permission_alternatives": [
+        "MATH 154",
+        "MATH 157"
+      ],
+      "permission_min_grade": "B+"
+    },
+    {
+      "id": "calculus_ii",
+      "label": "Calculus II",
+      "courses": [
+        "MATH 152"
+      ],
+      "permission_alternatives": [
+        "MATH 155",
+        "MATH 158"
+      ],
+      "permission_min_grade": "B+"
+    },
+    {
+      "id": "linear_algebra",
+      "label": "Linear algebra",
+      "courses": [
+        "MATH 232",
+        "MATH 240"
+      ]
+    }
+  ],
+  "upper_required": [
+    "CMPT 307",
+    "CMPT 376W"
+  ],
+  "bsc_required": [
+    "MACM 316"
+  ],
+  "minimum_units": 120,
+  "minimum_upper_units": 45,
+  "minimum_upper_cmpt_units": 30,
+  "minimum_depth_units": 12,
+  "depth_excluded": [
+    "CMPT 415",
+    "CMPT 416",
+    "CMPT 498"
+  ],
+  "breadth_areas_required": 4,
+  "breadth_required_course": "CMPT 307",
+  "concentrations": {
+    "Artificial Intelligence": [
+      "CMPT 310",
+      "CMPT 340",
+      "CMPT 410",
+      "CMPT 411",
+      "CMPT 413",
+      "CMPT 417",
+      "CMPT 419",
+      "CMPT 420"
+    ],
+    "Visual and Interactive Computing": [
+      "CMPT 361",
+      "CMPT 363",
+      "CMPT 365",
+      "CMPT 412",
+      "CMPT 461",
+      "CMPT 464",
+      "CMPT 466",
+      "CMPT 467",
+      "CMPT 469"
+    ],
+    "Computing Systems": [
+      "CMPT 303",
+      "CMPT 305",
+      "CMPT 371",
+      "CMPT 379",
+      "CMPT 403",
+      "CMPT 431",
+      "CMPT 433",
+      "CMPT 450",
+      "CMPT 471",
+      "CMPT 479",
+      "CMPT 499"
+    ],
+    "Information Systems": [
+      "CMPT 353",
+      "CMPT 354",
+      "CMPT 362",
+      "CMPT 372",
+      "CMPT 441",
+      "CMPT 454",
+      "CMPT 456",
+      "CMPT 459",
+      "CMPT 474"
+    ],
+    "Programming Languages and Software": [
+      "CMPT 373",
+      "CMPT 383",
+      "CMPT 384",
+      "CMPT 473",
+      "CMPT 475",
+      "CMPT 477",
+      "CMPT 489"
+    ],
+    "Theoretical Computing Science": [
+      "CMPT 307",
+      "CMPT 308",
+      "CMPT 404",
+      "CMPT 405",
+      "CMPT 406",
+      "CMPT 407",
+      "CMPT 409",
+      "CMPT 476",
+      "MACM 476",
+      "MACM 300"
+    ]
+  },
+  "table_ii": [],
+  "table_iii": [
+    "MACM 316",
+    "MACM 401",
+    "MACM 442",
+    "MATH 308",
+    "MATH 340",
+    "MATH 343"
+  ],
+  "duplicate_credit_groups": [
+    [
+      "CMPT 476",
+      "MACM 476"
+    ],
+    [
+      "MATH 150",
+      "MATH 151",
+      "MATH 154",
+      "MATH 157"
+    ],
+    [
+      "MATH 152",
+      "MATH 155",
+      "MATH 158"
+    ],
+    [
+      "MATH 232",
+      "MATH 240"
+    ]
+  ],
+  "course_metadata": {
+    "CMPT 105W": {
+      "title": "Social Issues and Communication Strategies in Computing Science",
+      "units": 3,
+      "designations": [
+        "W"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/105w.html"
+    },
+    "CMPT 120": {
+      "title": "Introduction to Computing Science and Programming I",
+      "units": 3,
+      "designations": [
+        "B-Sci",
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/120.html"
+    },
+    "CMPT 125": {
+      "title": "Introduction to Computing Science and Programming II",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/125.html"
+    },
+    "CMPT 201": {
+      "title": "Systems Programming",
+      "units": 4,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/201.html"
+    },
+    "CMPT 210": {
+      "title": "Probability and Computing",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/210.html"
+    },
+    "CMPT 225": {
+      "title": "Data Structures and Programming",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/225.html"
+    },
+    "CMPT 276": {
+      "title": "Introduction to Software Engineering",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/276.html"
+    },
+    "CMPT 295": {
+      "title": "Introduction to Computer Systems",
+      "units": 4,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/295.html"
+    },
+    "MACM 101": {
+      "title": "Discrete Mathematics I",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/macm/101.html"
+    },
+    "STAT 271": {
+      "title": "Probability and Statistics for Computing Science",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/stat/271.html"
+    },
+    "MATH 150": {
+      "title": "Calculus I with Review",
+      "units": 4,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/150.html"
+    },
+    "MATH 151": {
+      "title": "Calculus I",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/151.html"
+    },
+    "MATH 154": {
+      "title": "Mathematics for the Life Sciences I",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/154.html"
+    },
+    "MATH 157": {
+      "title": "Calculus I for the Social Sciences",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/157.html"
+    },
+    "MATH 152": {
+      "title": "Calculus II",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/152.html"
+    },
+    "MATH 155": {
+      "title": "Mathematics for the Life Sciences II",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/155.html"
+    },
+    "MATH 158": {
+      "title": "Calculus II for the Social Sciences",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/158.html"
+    },
+    "MATH 232": {
+      "title": "Applied Linear Algebra",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/232.html"
+    },
+    "MATH 240": {
+      "title": "Algebra I: Linear Algebra",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/240.html"
+    },
+    "CMPT 307": {
+      "title": "Data Structures and Algorithms",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/307.html"
+    },
+    "CMPT 376W": {
+      "title": "Professional Responsibility and Technical Writing",
+      "units": 3,
+      "designations": [
+        "W"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/376w.html"
+    },
+    "MACM 316": {
+      "title": "Numerical Analysis I",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/macm/316.html"
+    },
+    "CMPT 310": {
+      "title": "Introduction to Artificial Intelligence",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/310.html"
+    },
+    "CMPT 340": {
+      "title": "Biomedical Computing",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/340.html"
+    },
+    "CMPT 410": {
+      "title": "Machine Learning",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/410.html"
+    },
+    "CMPT 411": {
+      "title": "Knowledge Representation",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/411.html"
+    },
+    "CMPT 413": {
+      "title": "Computational Linguistics",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/413.html"
+    },
+    "CMPT 417": {
+      "title": "Intelligent Systems",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/417.html"
+    },
+    "CMPT 419": {
+      "title": "Special Topics in Artificial Intelligence",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/419.html"
+    },
+    "CMPT 420": {
+      "title": "Deep Learning",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/420.html"
+    },
+    "CMPT 361": {
+      "title": "Introduction to Visual Computing",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/361.html"
+    },
+    "CMPT 363": {
+      "title": "User Interface Design",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/363.html"
+    },
+    "CMPT 365": {
+      "title": "Multimedia Systems",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/365.html"
+    },
+    "CMPT 412": {
+      "title": "Computer Vision",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/412.html"
+    },
+    "CMPT 461": {
+      "title": "Computational Photography and Image Manipulation",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/461.html"
+    },
+    "CMPT 464": {
+      "title": "Geometric Modelling in Computer Graphics",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/464.html"
+    },
+    "CMPT 466": {
+      "title": "Animation",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/466.html"
+    },
+    "CMPT 467": {
+      "title": "Visualization",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/467.html"
+    },
+    "CMPT 469": {
+      "title": "Special Topics in Computer Graphics",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/469.html"
+    },
+    "CMPT 303": {
+      "title": "Operating Systems",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/303.html"
+    },
+    "CMPT 305": {
+      "title": "Computer Simulation and Modelling",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/305.html"
+    },
+    "CMPT 371": {
+      "title": "Data Communications and Networking",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/371.html"
+    },
+    "CMPT 379": {
+      "title": "Principles of Compiler Design",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/379.html"
+    },
+    "CMPT 403": {
+      "title": "System Security and Privacy",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/403.html"
+    },
+    "CMPT 431": {
+      "title": "Distributed Systems",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/431.html"
+    },
+    "CMPT 433": {
+      "title": "Embedded Systems",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/433.html"
+    },
+    "CMPT 450": {
+      "title": "Computer Architecture",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/450.html"
+    },
+    "CMPT 471": {
+      "title": "Networking II",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/471.html"
+    },
+    "CMPT 479": {
+      "title": "Special Topics in Computing Systems",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/479.html"
+    },
+    "CMPT 499": {
+      "title": "Special Topics in Computer Hardware",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/499.html"
+    },
+    "CMPT 353": {
+      "title": "Computational Data Science",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/353.html"
+    },
+    "CMPT 354": {
+      "title": "Database Systems I",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/354.html"
+    },
+    "CMPT 362": {
+      "title": "Mobile Applications Programming and Design",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/362.html"
+    },
+    "CMPT 372": {
+      "title": "Web II - Server-side Development",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/372.html"
+    },
+    "CMPT 441": {
+      "title": "Computational Biology",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/441.html"
+    },
+    "CMPT 454": {
+      "title": "Database Systems II",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/454.html"
+    },
+    "CMPT 456": {
+      "title": "Information Retrieval and Web Search",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/456.html"
+    },
+    "CMPT 459": {
+      "title": "Special Topics in Database Systems",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/459.html"
+    },
+    "CMPT 474": {
+      "title": "Web Systems Architecture",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/474.html"
+    },
+    "CMPT 373": {
+      "title": "Software Development Methods",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/373.html"
+    },
+    "CMPT 383": {
+      "title": "Comparative Programming Languages",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/383.html"
+    },
+    "CMPT 384": {
+      "title": "Symbolic Computing",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/384.html"
+    },
+    "CMPT 473": {
+      "title": "Software Testing, Reliability and Security",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/473.html"
+    },
+    "CMPT 475": {
+      "title": "Requirements Engineering",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/475.html"
+    },
+    "CMPT 477": {
+      "title": "Introduction to Formal Verification",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/477.html"
+    },
+    "CMPT 489": {
+      "title": "Special Topics in Programming Languages",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/489.html"
+    },
+    "CMPT 308": {
+      "title": "Computability and Complexity",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/308.html"
+    },
+    "CMPT 404": {
+      "title": "Cryptography and Cryptographic Protocols",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/404.html"
+    },
+    "CMPT 405": {
+      "title": "Design and Analysis of Computing Algorithms",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/405.html"
+    },
+    "CMPT 406": {
+      "title": "Computational Geometry",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/406.html"
+    },
+    "CMPT 407": {
+      "title": "Computational Complexity",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/407.html"
+    },
+    "CMPT 409": {
+      "title": "Special Topics in Theoretical Computing Science",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/409.html"
+    },
+    "CMPT 476": {
+      "title": "Introduction to Quantum Algorithms",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/476.html"
+    },
+    "MACM 476": {
+      "title": "Introduction to Quantum Algorithms",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/macm/476.html"
+    },
+    "MACM 300": {
+      "title": "Introduction to Formal Languages and Automata with Applications",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/macm/300.html"
+    },
+    "MACM 401": {
+      "title": "Introduction to Computer Algebra",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/macm/401.html"
+    },
+    "MACM 442": {
+      "title": "Cryptography",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/macm/442.html"
+    },
+    "MATH 308": {
+      "title": "Linear Optimization",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/308.html"
+    },
+    "MATH 340": {
+      "title": "Algebra II: Rings and Fields",
+      "units": 3,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/340.html"
+    },
+    "MATH 343": {
+      "title": "Applied Discrete Mathematics",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/math/343.html"
+    },
+    "CMPT 318": {
+      "title": "Special Topics in Computing Science",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/318.html"
+    },
+    "CMPT 415": {
+      "title": "Special Research Projects",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/415.html"
+    },
+    "CMPT 416": {
+      "title": "Special Research Projects",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/416.html"
+    },
+    "CMPT 496": {
+      "title": "Directed Studies",
+      "units": 3,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/496.html"
+    },
+    "CMPT 497": {
+      "title": "Dual Degree Program Capstone Project",
+      "units": 6,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/497.html"
+    },
+    "CMPT 498": {
+      "title": "Honours Research Project",
+      "units": 6,
+      "designations": [],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/498.html"
+    },
+    "ECON 103": {
+      "title": "Principles of Microeconomics",
+      "units": 4,
+      "designations": [
+        "Q"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/econ/103.html"
+    },
+    "ECON 105": {
+      "title": "Principles of Macroeconomics",
+      "units": 4,
+      "designations": [
+        "Q",
+        "B-Soc"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/econ/105.html"
+    },
+    "PHIL 105": {
+      "title": "Critical Thinking",
+      "units": 3,
+      "designations": [
+        "Q",
+        "B-Soc"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/phil/105.html"
+    },
+    "BISC 101": {
+      "title": "General Biology",
+      "units": 4,
+      "designations": [
+        "B-Sci"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/bisc/101.html"
+    },
+    "PHYS 120": {
+      "title": "Mechanics and Modern Physics",
+      "units": 3,
+      "designations": [
+        "Q",
+        "B-Sci"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/phys/120.html"
+    },
+    "PHIL 100W": {
+      "title": "Knowledge and Reality",
+      "units": 3,
+      "designations": [
+        "W",
+        "B-Hum"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/phil/100w.html"
+    },
+    "HUM 130": {
+      "title": "Introduction to Religious Studies: Ancient, Abrahamic, and Secular Religions",
+      "units": 3,
+      "designations": [
+        "B-Hum"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/hum/130.html"
+    },
+    "ARCH 131": {
+      "title": "Human Origins",
+      "units": 3,
+      "designations": [
+        "B-Soc"
+      ],
+      "source": "https://www.sfu.ca/students/calendar/2026/fall/courses/arch/131.html"
+    }
+  },
+  "manual_review": [
+    "Official transcript and transfer articulations, substitutions, historical course exclusions, repeatable topics and approvals",
+    "Overall, upper division, program and program upper division graduation GPAs (minimum 2.00); Computing Science continuation CGPA 2.40",
+    "SFU residency: half total units, two thirds upper division, and two thirds school upper division units",
+    "Calendar applicability, admission/continuation status, special circumstances and credential approval"
+  ],
+  "program_page_sha256": "87c80da33900a3493e1b64a99a766298d663c4df507433d410093167a1c1b5ff"
+}

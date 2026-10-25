@@ -9,6 +9,8 @@ import re
 COURSE_PATTERN = re.compile(r"[A-Z]{2,6} \d{3}[A-Z]?")
 GRADES = {"A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "P"}
 DEFAULT_CATALOG = Path(__file__).resolve().parents[1] / "data" / "catalog.json"
+if not DEFAULT_CATALOG.is_file():
+    DEFAULT_CATALOG = Path(__file__).resolve().parent / "data" / "catalog.json"
 
 
 class CatalogError(ValueError):
