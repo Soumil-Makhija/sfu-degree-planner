@@ -152,6 +152,7 @@ def meetings(detail: dict, component: str, include_exams: bool) -> list:
 
 def build(data_dir: Path) -> dict:
     manifest = json.loads((data_dir / "manifest.json").read_text())
+    reviewed_rules = json.loads((data_dir / "reviewed_rules.json").read_text())
     records = {record["url"].removeprefix(API): record for record in manifest["sources"]}
     for record in manifest["sources"]:
         raw = (data_dir / record["fixture"]).read_bytes()
@@ -179,6 +180,9 @@ def build(data_dir: Path) -> dict:
             raise ValueError(f"No enrollment sections for {path}")
         first_info = read(path + "/" + lectures[0]["value"])["info"]
         code = first_info["dept"] + " " + first_info["number"]
+        reviewed = reviewed_rules.get(code)
+        if reviewed != {"prerequisite_text": first_info["prerequisites"], "restriction_text": first_info["notes"]}:
+            raise ValueError(f"Prerequisite or restriction changed; human rule review required: {code}")
         output = {"id": code, "title": first_info["title"], "units": float(first_info["units"]),
                   "prerequisite": rules()[code], "prerequisite_text": first_info["prerequisites"],
                   "prerequisite_review": [], "credit_exclusions": EXCLUSIONS.get(code, []),

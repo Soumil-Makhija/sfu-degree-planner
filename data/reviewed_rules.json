@@ -1,0 +1,42 @@
+{
+  "CMPT 120": {
+    "prerequisite_text": "BC Math 12 or equivalent is recommended.",
+    "restriction_text": "Students with credit for CMPT 102, 128, 130 or 166 may not take this course for further credit. Students who have taken CMPT 125, 129, 130 or 135 first may not then take this course for further credit."
+  },
+  "CMPT 125": {
+    "prerequisite_text": "CMPT 120 or CMPT 130, with a minimum grade of C-.",
+    "restriction_text": "Students with credit for CMPT 126, 129, 135 or CMPT 200 or higher may not take this course for further credit."
+  },
+  "CMPT 225": {
+    "prerequisite_text": "(MACM 101 and (CMPT 125, CMPT 129 or CMPT 135)) or (ENSC 251 and ENSC 252), all with a minimum grade of C-.",
+    "restriction_text": ""
+  },
+  "CMPT 276": {
+    "prerequisite_text": "One W course, CMPT 225, (MACM 101 or (ENSC 251 and ENSC 252)) and (MATH 151 or MATH 150), all with a minimum grade of C-. MATH 154 or MATH 157 with at least a B+ may be substituted for MATH 151 or MATH 150.",
+    "restriction_text": "Students with credit for CMPT 275 may not take this course for further credit."
+  },
+  "CMPT 295": {
+    "prerequisite_text": "Either (MACM 101 and (CMPT 125 or CMPT 135)) or (MATH 151 and CMPT 102 for students in an Applied Physics program), all with a minimum grade of C-.",
+    "restriction_text": ""
+  },
+  "MACM 101": {
+    "prerequisite_text": "BC Pre-Calculus 12 or BC Calculus 12 (or equivalent), or any of MATH 100, 150, 151, 154, 157.",
+    "restriction_text": ""
+  },
+  "MACM 201": {
+    "prerequisite_text": "MATH 141 or MACM 101 or (ENSC 251 and one of MATH 232 or MATH 240).",
+    "restriction_text": ""
+  },
+  "MATH 151": {
+    "prerequisite_text": "Pre-Calculus 12 (or equivalent) with a grade of at least A, or MATH 100 with a grade of at least B, or MATH 110 with a grade of at least A.",
+    "restriction_text": "Students with credit for either MATH 150, 154 or 157 may not take MATH 151 for further credit."
+  },
+  "MATH 152": {
+    "prerequisite_text": "MATH 150 or MATH 151, with a minimum grade of C-; or MATH 154 or MATH 157, with a minimum grade of B.",
+    "restriction_text": "Students with credit for MATH 155 or MATH 158 may not take this course for further credit."
+  },
+  "MATH 232": {
+    "prerequisite_text": "MATH 150 or 151 or MACM 101, with a minimum grade of C-; or MATH 154 or 157, both with a grade of at least B.",
+    "restriction_text": "Students with credit for MATH 240 may not take this course for further credit."
+  }
+}

@@ -69,9 +69,21 @@ class CatalogTests(unittest.TestCase):
             target = Path(directory)
             shutil.copytree(DATA / "sources", target / "sources")
             shutil.copyfile(DATA / "manifest.json", target / "manifest.json")
+            shutil.copyfile(DATA / "reviewed_rules.json", target / "reviewed_rules.json")
             fixture = next((target / "sources").glob("*.json"))
             fixture.write_text("{}")
             with self.assertRaisesRegex(ValueError, "checksum mismatch"):
+                fetch_sfu.build(target)
+
+    def test_changed_official_rules_require_review_before_rebuild(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory)
+            shutil.copytree(DATA / "sources", target / "sources")
+            shutil.copyfile(DATA / "manifest.json", target / "manifest.json")
+            reviewed = json.loads((DATA / "reviewed_rules.json").read_text())
+            reviewed["CMPT 120"]["prerequisite_text"] = "A previous, no longer valid rule."
+            (target / "reviewed_rules.json").write_text(json.dumps(reviewed))
+            with self.assertRaisesRegex(ValueError, "human rule review required"):
                 fetch_sfu.build(target)
 
     def test_unknown_prerequisite_operator_is_rejected(self):
